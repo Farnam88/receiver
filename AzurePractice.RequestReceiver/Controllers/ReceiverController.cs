@@ -22,7 +22,7 @@ public class ReceiverController : ControllerBase
     [HttpGet()]
     public IActionResult Get()
     {
-        var result = Enumerable.Range(3, 8).Select(index => new WeatherForecastDto
+        var result = Enumerable.Range(1, 5).Select(index => new WeatherForecastDto
             {
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = Random.Shared.Next(-20, 55),
