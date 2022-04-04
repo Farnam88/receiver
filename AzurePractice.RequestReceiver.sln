@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzurePractice.RequestReceiver", "AzurePractice.RequestReceiver\AzurePractice.RequestReceiver.csproj", "{5B12BF81-D43F-4852-820E-909B854A730C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3FE26D65-A37B-44D0-81A1-613204715466}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-files", "solution-files", "{B1735A9A-4799-4C82-8A2B-27BD3D446197}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B12BF81-D43F-4852-820E-909B854A730C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B12BF81-D43F-4852-820E-909B854A730C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B12BF81-D43F-4852-820E-909B854A730C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B12BF81-D43F-4852-820E-909B854A730C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B12BF81-D43F-4852-820E-909B854A730C} = {3FE26D65-A37B-44D0-81A1-613204715466}
+	EndGlobalSection
+EndGlobal
